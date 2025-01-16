@@ -1,0 +1,208 @@
+
+#BDDetail{
+	display:block;
+	float:left;
+	padding-left:2px;
+	width: 15%;
+	font-size:75%;
+	min-height:810px;
+
+	text-align:left;
+	vertical-align:text-top;
+	background-color:#E6E6EE;
+	color:#FFFFFF;
+
+}
+#subContent{
+	display:block;
+	float:left;
+	width: 83%;
+	font-weight:normal;
+	padding-left:2px;
+	text-align:left;
+	vertical-align:text-top;
+	min-height:740px;
+	background-color:#FFFFFF;
+}
+
+.navbarlink {
+	font-weight:normal;
+	padding: 0px;
+	color:#7C8781;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.navbarlink:hover, .activenv {
+	color: #FFFFFF;
+	font-weight:bold;
+	background-color : #F7BA02;
+	text-decoration:none;
+}
+
+.listemenu{
+	padding:0;
+	margin:0;
+}
+#port_manuel{
+	padding:0;
+	margin-left:10px;
+}
+.sublistmenuitem{
+	list-style-type:none;
+	color				: #7C8781;
+}
+
+/* Processus de portage automatique */
+.exportCheck{
+height:10px;
+}
+#titleProcess{
+ font-size:100%;
+ font-weight:bold;
+}
+
+#vidage{
+	min-height:50px;
+	background-color:#E6E6EE;
+width:100%;
+}
+#vidage_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#vidage_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#vidage_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide1{
+	padding-left:5px;
+	background-color:#E6E6EE;
+	font-size:70%;
+}
+#copiePPEAO{
+	min-height:50px;
+	background-color:#FFF;
+	width:100%;
+}
+#copiePPEAO_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#copiePPEAO_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#copiePPEAO_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide2{
+	margin-left:5px;
+	background-color:#FFF;
+	font-size:70%;
+}
+#copieACCESS{
+	min-height:50px;
+	background-color:#E6E6EE;
+	width:100%;
+}
+#copieACCESS_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#copieACCESS_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#copieACCESS_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide3{
+	margin-left:5px;
+	background-color:#E6E6EE;
+	font-size:70%;
+}
+
+#copieZip{
+	min-height:50px;
+	background-color:#FFF;
+	width:100%;
+}
+#copieZip_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#copieZip_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#copieZip_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide4{
+	margin-left:5px;
+	background-color:#FFF;
+	font-size:70%;
+}
+
+#exportOK{
+	min-height:40px;
+	background-color: #666666;
+	width:100%;
+	border-top:solid 2px #FFFFFF;
+	border-bottom:solid 2px #FFFFFF;
+}
+#exportOK_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#exportOK_txt{
+	display:block;
+	float:left;
+	font-size:90%;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+/* pour effet slide */
+.marginCR{
+	width:500px;
+	margin-left:5px;
+	font-size:10px;
+	font-weight:bold;
+	border:1 px dashed #000000;
+}
+#videResultat{
+	font-weight:bold;
+	background-color:#CCC;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:2px;
+}
+#expResultat{
+	background-color:#CCC;
+}

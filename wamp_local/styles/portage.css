@@ -1,0 +1,399 @@
+
+#BDDetail{
+	display:block;
+	float:left;
+	padding-left:2px;
+	width: 15%;
+	font-size:75%;
+	min-height:810px;
+
+	text-align:left;
+	vertical-align:text-top;
+	background-color:#E6E6EE;
+	color:#FFFFFF;
+
+}
+#subContent{
+	display:block;
+	float:left;
+	width: 83%;
+	font-weight:normal;
+	padding-left:2px;
+	text-align:left;
+	vertical-align:text-top;
+	min-height:740px;
+	background-color:#FFFFFF;
+}
+.portageInfo{
+font-size:80%;
+}
+.navbarlink {
+	font-weight:normal;
+	padding: 0px;
+	color:#7C8781;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.navbarlink:hover, .activenv {
+	color: #FFFFFF;
+	font-weight:bold;
+	background-color : #F7BA02;
+	text-decoration:none;
+}
+
+.listemenu{
+	padding:0;
+	margin:0;
+}
+#port_manuel{
+	padding:0;
+	margin-left:10px;
+}
+.sublistmenuitem{
+	list-style-type:none;
+	color				: #7C8781;
+}
+
+#version{
+text-align:center;
+color:#666666;
+margin-top:40px;
+border-top:solid 1px #FFFFFF;
+font-size:80%;
+
+}
+/* Processus de portage automatique */
+.portageCheck{
+height:10px;
+}
+#titleProcess{
+ font-size:100%;
+ font-weight:bold;
+ background-color:#FFF;
+}
+#sauvegarde{
+	min-height:50px;
+	background-color:#E6E6EE;
+	width:100%;
+}
+#sauvegarde_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#sauvegarde_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#sauvegarde_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide1{
+	margin-left:50px;
+	background-color:#E6E6EE;
+	font-size:70%;
+}
+#comparaison{
+	min-height:50px;
+	background-color:#FFF;
+	width:100%;
+}
+#comparaison_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#comparaison_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#comparaison_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide2{
+	margin-left:50px;
+	background-color:#FFF;
+	font-size:70%;
+}
+#comparaisonInv{
+	min-height:50px;
+	background-color:#E6E6EE;
+	width:100%;
+}
+#comparaisonInv_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#comparaisonInv_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#comparaisonInv_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide3{
+	margin-left:50px;
+	background-color:#E6E6EE;
+	font-size:70%;
+}
+#copieScientifique{
+	min-height:50px;
+	background-color:#FFF;
+	width:100%;
+}
+#copieScientifique_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#copieScientifique_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#copieScientifique_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide4{
+	margin-left:50px;
+	background-color:#FFF;
+	font-size:70%;
+}
+#processAutoRec{
+	min-height:60px;
+	background-color:#E6E6EE;
+	width:100%;
+}
+#processAutoRec_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#processAutoRec_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#processAutoRec_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide5{
+	margin-left:50px;
+	background-color:#E6E6EE;
+	font-size:70%;
+}
+#processAutoStat{
+	min-height:50px;
+	background-color:#FFF;
+	width:100%;
+}
+#processAutoStat_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#processAutoStat_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#processAutoStat_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide6{
+	margin-left:50px;
+	background-color:#FFF;
+	font-size:70%;
+}
+#copieRecomp{
+	min-height:60px;
+	background-color:#E6E6EE;
+	width:100%;
+}
+#copieRecomp_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#copieRecomp_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#copieRecomp_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#vertical_slide7{
+	margin-left:50px;
+	background-color:#E6E6EE;
+	font-size:70%;
+}
+#portageOK{
+	min-height:40px;
+	background-color: #666666;
+	width:100%;
+	border-top:solid 2px #FFFFFF;
+	border-bottom:solid 2px #FFFFFF;
+}
+#portageOK_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#portageOK_txt{
+	display:block;
+	float:left;
+	font-size:90%;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+#purge{
+	min-height:20px;
+	background-color:#E6E6EE;
+	width:100%;
+}
+#purge_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#purge_txt{
+	display:block;
+	float:left;
+	font-size:80%;
+}
+#vertical_slide8{
+	margin-left:50px;
+	background-color:#E6E6EE;
+	font-size:70%;
+}
+#purge_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+/* pour effet slide */
+.marginCR{
+	width:500px;
+	margin-left:5px;
+	font-size:10px;
+	font-weight:bold;
+	border:1 px dashed #000000;
+}
+/*Portage partiel YL 16/03/2011 */
+
+#selectionRec_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+
+#selectionRec{
+	min-height:50px;
+	background-color:#FFF;
+	width:100%;
+}
+
+#selectionRec_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#selectionRec_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#importBdpeche{
+	min-height:50px;
+	background-color:#E6E6EE;
+	width:100%;
+}
+#importBdpeche_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+
+#importBdpeche_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#importBdpeche_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#SupBdppeao{
+	min-height:50px;
+	background-color:#FFF;
+	width:100%;
+}
+#SupBdppeao_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#SupBdppeao_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#SupBdppeao_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+#portageSel{
+	min-height:50px;
+	background-color:#E6E6EE;
+	width:100%;
+}
+#portageSel_img{
+	display:block;
+	float:left;
+	width:40px;
+}
+#portageSel_txt{
+	display:block;
+	float:left;
+	font-size:70%;
+	font-weight:bold;
+}
+#portageSel_chk{
+	font-size:70%;
+	font-weight:bold;
+	text-align:right;
+}
+
+

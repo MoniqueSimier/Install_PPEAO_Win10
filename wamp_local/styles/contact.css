@@ -1,0 +1,113 @@
+/*************************/
+/* CSS pour contact      */
+/* Crée par Yann Laurent */
+/*************************/
+
+#main_contact{
+width:800px;
+}
+#ligne1{
+width:800px;
+}
+#imageTop{
+	display:block;
+	float:left;
+	margin-left:5px;
+	margin-right:10px;
+}
+#contactTitre{
+
+}
+.contact{
+
+}
+.contactItalique{
+font-style:italic;
+
+}
+.contactRT{
+	font-size:75%;
+
+}
+#referenceRT{
+	background-color:#CCCCCC;
+	border:1px dotted #666666;
+	padding:5px;
+}
+#listcontact{
+	background-color:#CCCCCC;
+	border:1px dotted #666666;
+}
+.contact a{
+	color:#2D60DE;
+	font-style:normal;
+}
+.contact li {
+	list-style:none;
+	font-weight:bold;
+
+}
+#logo{
+	display:block;
+	float:left;
+	width:800px;
+	border:1px dotted #CCCCCC;
+	text-align:center;
+	padding:5px;
+}
+#logo1{
+	margin-left:75px;
+	display:block;
+	float:left;
+
+}
+#logo2{
+	display:block;
+	float:left;
+	background-color:#FFFFFF;
+
+}
+#logo3{
+	display:block;
+	float:left;
+	background-color:#FFFFFF;
+
+}
+#logo4{
+	display:block;
+	float:left;
+	background-color:#FFFFFF;
+
+}
+#space1{
+	display:block;
+	float:left;
+	width:75px;
+}
+#space2{
+	display:block;
+	float:left;
+	width:75px;
+}
+#space3{
+	display:block;
+	float:left;
+	width:75px;
+}
+#sinti{
+	min-height:40px;
+	font-weight:bold;
+	font-size:100%;
+
+}
+#asa{
+	min-height:40px;
+	font-weight:bold;
+	font-size:100%;
+}
+#otolithe{
+	min-height:40px;
+	font-weight:bold;
+	font-size:100%;
+
+}

@@ -1,0 +1,498 @@
+/* feuille de style principale pour l'ensemble de l'application */
+
+/* ******************************** */
+/* styles pour le module de portage*/
+@import url(portage.css);
+/* styles pour le module d'édition des tables'*/
+@import url(edition.css);
+/* styles pour le module de pagination des tables'*/
+@import url(pagination.css);
+/* styles pour le module d'extraction des tables'*/
+@import url(extraction.css);
+/* styles pour le module de documentation*/
+@import url(contact.css);
+/* styles pour le module d'export*/
+@import url(export.css);
+/* styles pour le module de suppression des unites*/
+@import url(suppression.css);
+/* styles pour le module de selection pour extraction*/
+@import url(ex_selection.css);
+/* *********************** */
+/* common styles */
+
+body {
+	font-family	: Verdana, Helvetica, Arial, sans-serif;
+	font-style	: normal;
+	font-size	: 14px;
+	line-height	: 16px;
+	margin 		: 0;
+}
+
+label {
+margin:0;
+padding:0;
+}
+
+p {
+margin:0;
+padding:0;
+}
+
+a{
+	color				: #2D60DE;
+	text-decoration		: none;
+}
+
+a:hover{
+	color				: #fff;
+	background-color	: #F7BA02;
+	text-decoration 	: none;
+	}
+
+a img {
+	border:none;
+}
+
+fieldset {
+	border 				: none;
+	margin 				: 0;
+	padding 			: 0;
+	}
+
+form {
+		margin: 0;
+		padding: 0;
+	}
+
+input {
+		margin: 0;
+		padding:0; 
+	}
+select {
+		margin: 0; 
+		padding:0; 
+	}
+	
+
+	
+/* h1 style pour titre général PPEAO*/
+h1 {
+font-size:24px;
+text-align:center;
+padding-top:6px;
+padding-bottom:24px;
+font-weight:bold;
+margin:12px 0 0 0;
+}
+
+/*h2, style pour sous titre général ou titre principal de fenêtre*/
+h2 {
+font-size:17px;
+/*text-align:center;*/
+padding:0;
+font-weight:bold;
+margin:6px 0 12px 0;
+}
+
+h3 {
+font-size:12px;
+margin:0;
+padding:0;
+font-weight:bold;
+}
+
+h4 {
+	font-size:11px;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+/*h5, style pour tête de chapitre dans une fenêtre*/
+h5 {
+font-size:14px;
+/*text-align:center;*/
+padding:0;
+font-weight:bold;
+margin:12px 0 6px 0;
+}
+pre {
+	font-size:11px;
+	font-family: Courier, "Courrier New", sans-serif;
+	color:red;
+}
+
+/* ***************************** */
+/* styles personnalisés globaux */
+.clear {
+	clear:both;
+}
+.error {
+color:red;
+}
+
+.small {
+font-size:10px;
+}
+
+.hidden {
+display:none;
+}
+.gras{
+	font-weight:bold;
+}
+a.link_button {
+	padding: 1px;
+	border: 1px solid #7C8781;
+	text-align:center;
+}
+
+.texte {
+	margin-top:6px;
+	text-align:justify;
+}
+
+.grey {
+	color:#B9C8CE;
+}
+
+/* *********************** */
+/* the top navigation bar */
+
+
+#nav_container {
+	min-width: 800px;
+	min-height :	36px;
+	background : #C2C2C2;
+	margin: 0;
+}
+
+#nav_menu {
+vertical-align: baseline;
+}
+
+
+
+#nav_menu a {
+	color:#7C8781;
+	text-decoration 	: none;
+}
+
+#nav_menu .active {
+	color:#fff;
+	text-decoration 	: none;
+}
+
+#nav_menu a:hover {
+	color:#fff;
+	text-decoration 	: none;
+}
+
+.menu {
+	display:block;
+	float:left;
+	padding 	: 6px 12px 0 12px;
+	font-family : Georgia, 'Times New Roman', serif;
+	font-weight:bold;
+	font-style 	: bold;
+	font-size 	: 18px;
+	color 		: #fff;
+	min-height	: 30px;
+}
+
+.menu:hover, .active {
+	color 		: #7C8781;
+	background : #F7BA02;
+	text-decoration 	: none;
+}
+
+
+/* ********************************* */
+/* the top secondary navigation bar */
+#nav_sousmenu {
+vertical-align: baseline;
+background:  #F7BA02;
+margin:0;
+padding: 6px 0 6px 0;
+}
+
+.sousmenu {
+padding: 0 6px;
+font-family : Georgia, 'Times New Roman', serif;
+color:#7C8781;
+}
+
+#nav_sousmenu a:hover, #nav_sousmenu a.active {
+	border-bottom: 6px solid white;
+	background:transparent;
+	color:white;
+	font-weight:normal;
+}
+
+
+/* ************************ */
+/* the login forms         */
+
+
+#smalloginform {
+	font-size: 11px;
+	margin:0;
+	padding:6px 0 0 18px;
+}
+
+#smalloginform dd {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#smalloginform dt {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+#sloginform  div { /*modifié gaspard padding*/
+	float:left;
+	text-align:center;
+	line-height:12px;
+	padding:0 5px 0 5px;
+}
+
+#sloginform  p {
+	padding-top: 9px;
+	display:block;
+	margin: auto;
+}
+
+#sloginform input {
+	height:11px;
+	font-size:11px;
+}
+
+#sloginform a {
+	border:2px outset grey;
+	padding:0 10px 2px 10px;
+	margin-left:10px;
+}
+#sloginform a:hover{
+	border:2px outset grey;
+	padding:0 6px 2px 6px;
+	margin-left:10px;
+	font-weight: bold;
+	}
+/* ************************ */
+/* the footer              */
+.inline {
+	display:inline;
+}
+
+#footer {
+clear:both;
+text-align:center;
+font-family : Georgia, 'Times New Roman', serif;
+font-size:10px;
+margin-top:18px;
+width:800px;
+
+
+}
+
+/* ************************ */
+/* the main container      */
+
+#main_container {
+min-height:500px;
+margin:24px 6px 6px 18px;
+width:800px;
+}
+
+#main_droits {
+margin:24px 6px 6px 18px;
+width:800px;
+}
+
+#choix_systemes {
+margin:24px 6px 6px 18px;
+width:800px;
+}
+
+#droits_consulter {
+margin:24px 6px 6px 18px;
+width:800px;
+}
+
+#main_container.edition {
+width:800%;
+}
+
+#main_container.edition h1 {
+	width:800px;
+}
+
+
+/* ************************ */
+/* the login block      */
+
+#login_block {
+width:800px;
+height:26px;
+margin: 0;
+padding:0;
+}
+
+/* *********************** */
+/* the log display        */
+
+#logTableDiv {
+	font-family	: Verdana, Helvetica, Arial, sans-serif;
+	font-style	: normal;
+	margin 		: 0;
+}
+
+
+#logTable {
+	font-size	: 9px;
+	min-width:650px;
+}
+
+.logTableHeaderRow {
+	font-size: 10px;
+	font-weight	: bold;
+	margin:2px 0 0 0;
+}
+
+.logTableRowEven {
+	background-color : #F2F2F2;
+}
+
+.logTableRowOdd {
+	background-color : white;
+}
+
+#logTable td {
+	padding:0 5px;
+}
+
+
+#logTable td.logTableTime {
+	width:120px;
+}
+
+#logTable td.logTableUser {
+	width:50px;
+}
+
+#logTable td.logTableModule {
+	width:120px;
+}
+
+#logTable td.logTableMessage {
+	min-width:150px;
+}
+
+#logTable td.logTableDo, #logTable td.logTableUndo, , #logTable td.logTableScript {
+	min-width:80px;
+}
+
+#archives_list {
+margin: 18px 0 0 0;
+font-size: 9px;
+}
+
+/* 	26/03/2014 
+	Pour info_ecosysteme dynamique
+*/
+.info_tbl td {
+	padding: 5px ;
+	text-align: right ;
+}
+
+.espece_tbl table {
+	width: 100% ;
+	background: #eee ;
+	border-collapse: collapse;
+	border: 2px solid black ;	
+	table-layout: fixed;
+}
+.espece_tbl th {
+	width: 100px ;	
+	border: 1px solid black ;	
+}
+.espece_tbl td {
+	border: 1px solid black ;	
+}
+.espece_tbl  .tht {
+	width: 250px ;
+}
+.espece_tbl  .thp {
+	width: 100px ;
+}
+.espece_tbl  .as {
+	width: 50px ;
+}
+.espece_tbl  .tdea {
+	background: #bbb ;
+	text-align: center ;
+	font-weight: bold ;
+	font-size : 120% ;
+}
+.espece_tbl  .tdee {
+	background: #aaa ;
+	text-align: center ;
+	font-weight: bold ;
+	font-size : 120% ;
+}
+
+/* *********************** */
+/* the doc display        */
+.marginbottom{
+	width:500px;
+	margin-left:5px;
+	font-size:10px;
+	font-weight:bold;
+	background-color:#F7E099;
+	border:1 px dashed #000000;
+}
+
+#vertical_slide
+{
+	width:500px;
+	margin-left:5px;
+	font-size:11px;
+	background-color:#F6F0DC;
+	border:1 px dashed #000000;
+}
+
+
+/* *********************** */
+/* the home page        */
+
+
+
+#home_thumbs img {
+	margin:3px 6px 12px 3px;
+}
+
+/* utilises pour afficher l'avertissement d'utilisation de IE */
+#ie_warning {
+	display:block;
+	border:1px solid black;
+	padding:3px;
+	margin:6px 0;
+	font-size:14px;
+	background-color:#FF8000;
+}
+
+#ie_warning span {
+	text-align:right;
+	display:block;
+	font-size:12px;
+}
+
+
+/* if the browser is NOT Internet Explorer, we pass a pixel font size*/
+<!--[if !IE]>-->
+body {
+    font-size 	: 16px;
+}
+<!--<[endif]-->
+

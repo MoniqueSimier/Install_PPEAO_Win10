@@ -1,0 +1,140 @@
+/*************************/
+/* styles pour la selection en vue de l'extraction   */
+/* Creee par O. Roux */
+/*************************/
+
+#main_container.selection {
+	/*min-height:0;*/
+}
+
+#ex_selection {
+	font-size:12px;
+}
+
+#step_2 {
+	display:block;
+}
+
+
+#choix_tables_stats, #choix_filiere, #choix_tables_stats {
+	display:block;
+	margin:10px 0 10px 0;
+}
+
+#choix_tables_stats div {
+	margin-top:10px;
+}
+
+
+#selection_precedente {
+	background-color: transparent;
+	padding: 12px 6px;
+	border: 1px solid gray;
+}
+
+#selection_precedente_toggle_haut,  #selection_precedente_toggle_bas {
+	float:right;
+}
+
+#selection_precedente_contenu p, #selection_precedente_contenu ul {
+	font-size:10px;
+}
+
+#selection_precedente_contenu p a {
+	font-weight: bold;
+	display:inline;
+	padding:0 3px;
+}
+
+#ex_selection p.clear {
+	display:block;
+	padding:6px 0;
+}
+
+a.next_step, a.last_step {
+	font-size:12px;
+	/*display:block;*/
+	background:#F7BA02;
+	padding: 3px 6px;
+	font-weight:bold;
+	margin-bottom:18px;
+	margin-top:8px;
+}
+
+#ex_selection .next_step, #ex_selection .last_step, #choix_tables_stats .last_step {
+	display:inline;
+}
+
+#choix_tables_stats p {
+	margin-top:10px;
+	font-size:12px;
+}
+
+#debut, #fin {
+	float:left;
+}
+
+#fin {
+	margin-left:12px;
+}
+
+
+
+#ex_compteur {
+	margin-top: 24px;
+	margin-bottom:60px;
+	clear:both;
+	background-color:#FFF8A7;
+	padding: 12px 6px;
+	border: none;
+	width:800px;
+	font-size:12px;
+}
+#ex_compteur p {
+	font-weight:bold;
+}
+#ex_compteur ul {
+	margin:0;
+}
+
+
+.alerte {
+	background: #FFF8A7;
+	border:1px solid #C2C2C2;
+	padding:3px;
+	margin:24px 0;
+}
+
+/* les listes de documents */
+
+#meta_docs, #meta_maps, #meta_figs {
+	font-size:10px;
+}
+
+#meta_docs ul, #meta_maps ul , #meta_figs ul {
+	list-style:none;
+}
+
+/* les styles des tooltips */
+.tool-tip {
+	font-size: 10px;
+	padding:0;
+	width:300px;
+	background-color:#DADADA;
+
+}
+
+.tool-title {
+	font-weight:bold;
+	padding:6px;
+	background-color:#C2C2C2;
+
+}
+
+.tool-text {
+	padding:6px;
+}
+
+#ex_selection hint {
+	margin-top:18px;
+}

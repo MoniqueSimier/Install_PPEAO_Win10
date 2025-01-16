@@ -1,0 +1,396 @@
+/*Yann Laurent
+Creation 21/09/2008
+Styles pour le module d'extraction
+*/
+#affLog{
+	font-size:70%
+}
+
+#formSel{
+	margin-left:5px;
+
+	background:#E4E4E4;
+	border:1px dotted #666666;
+
+}
+.listType{
+
+}
+
+.selType{
+list-style:none;
+}
+
+#versionTemp{
+	font-weight:bold;
+	font-size:70%;
+	margin-left:5px;
+	width:800px;
+	background:#CCCCCC;
+	border:1px dotted #000000;
+
+}
+
+#selection{
+	margin-left:5px;
+	width:800px;
+	background:#E4E4E4;
+	border:1px dotted #666666;
+
+}
+.checkall{
+	font-weight:bold;
+	background:#CCCCCC;
+}
+.list{
+
+}
+.list td {
+}
+/* CSS for sc_filiere.php */
+.sublist{
+	background:#CCCCCC;
+}
+.sublist td {
+	background:#FFF;
+	border:1px dotted #000000;
+	text-align:center;
+
+}
+.sublistF{
+	width:90%;
+	background:#CCCCCC;
+	text-align:center;
+}
+.sublistF td {
+	background:#FFF;
+	text-align:center;
+}
+.tdFermer{
+	cursor:pointer;
+
+}
+#listTableFil{
+	border:2px solid #FFFFFF;
+	width:780px;
+	padding:0px;	
+}
+.ligneLTF{
+	border:1px solid #FFFFFF;
+}
+
+.col1LTF{
+	width:260px;
+	background-color:#CCCCCC;
+	text-align:center;
+	vertical-align:top;
+}
+.col2LTF{
+	width:260px;
+	background-color:#FFFFFF;
+	text-align:center;
+	vertical-align:top;
+}
+.col3LTF{
+	width:260px;
+	background-color:#CCCCCC;
+	text-align:center;
+	vertical-align:top;
+}
+
+.TableFiliere{
+	cursor: pointer;
+}
+/* ajout pour nouvelle version extraction */
+#resultat{
+	margin-left:5px;
+	width:800px;
+	background:#EDD7B7;
+	border:1px dotted #666666;
+
+}
+
+#selection_precedente {
+	background-color:transparent;
+	border:1px solid gray;
+	padding:12px 6px;
+	font-size:12px;
+}
+
+#sel_compteur {
+	margin-top: 10px;
+	clear:both;
+	background-color:#FFF8A7;
+	padding: 12px 6px;
+	border: none;
+	width:800px;
+	font-size:12px;
+}
+#runProcess{
+	/*padding:3px;*/
+	background:#d9d8d8;
+	font-weight:bold;
+	border-bottom:1px dotted #666666;
+}
+#resultfiliere{
+	width:1024 px;
+	background:#FFF;
+}
+#menuTab{
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:80%;
+	top:430px;
+	left:5px;
+	width:800px;
+	background:#f8ea47;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-bottom:1px dotted #666666;
+}
+#listeTab{
+
+}
+
+#tableauresultats { /* créé ligne 2043 et 2285 dans extraction/extraction/functions.php*/
+	overflow:auto;
+	}
+	
+/* Poisitionnement des onglets des filieres */
+.criteresgen{
+	display:none;
+	float:lef;
+	background-color:#FFF8A7;
+	width:800px;
+}
+.sscriteresgen{
+visibility:hidden;
+
+}
+.visi{
+	visibility:visible;
+}
+.cateco{
+	display:none;
+	float:lef;	
+	background-color:#FFF8A7;
+	width:800px;
+}
+.cattroph{
+	display:none;
+	float:lef;
+	background-color:#FFF8A7;
+	width:800px;
+}
+.colonnes{
+	display:none;
+	float:lef;
+	background-color:#FFF8A7 ;
+	width:800px;
+}
+.especes{
+	display:none;
+	float:lef;
+	background-color:#FFF8A7 ;
+	width:800px;
+}
+
+.regroupesp{
+	display:none;
+	float:lef;
+	background-color:#FFF8A7 ;
+	width:800px;
+}
+.general{
+	display:none;
+	float:lef;
+	background-color:#FFF8A7 ;
+	width:800px;
+}
+#voiresultat{
+
+
+}
+.visible{
+	display:block;
+
+}
+.ChoixChampComp {
+	width:800px;
+	background-color:#FFF8A7;
+}
+.CCCTable{
+	vertical-align:text-top;
+	border:1px dotted #666666;
+	width:300px;
+}
+.CCCChamp{
+	vertical-align:text-top;
+	border:1px dotted #666666;
+	background-color:#dbd377;
+	width:800px;
+}
+.colpasactive{
+	width:100%;
+	color:#999;
+}
+.colactive{
+	background-color:#dbd377;
+	width:100%;
+	color:#000;
+}
+/* CSS pour les tables contenant la liste des cat eco, troph et des especes */
+#CEco{
+	font-size:75%;
+	text-align:left;
+	vertical-align:top;
+}
+#CTro{
+	font-size:75%;
+	text-align:left;
+	vertical-align:top;
+}
+.catitem{
+	text-align:left;
+	vertical-align:top;	
+}
+#espece{
+	text-align:left;
+	vertical-align:top;
+}
+#listeEspece{
+	font-size:75%;
+	text-align:left;
+	vertical-align:top;
+}
+#Regroupt{
+	font-size:75%;
+	text-align:left;
+	vertical-align:top;
+}
+#listeRegroupt{
+	font-size:75%;
+	text-align:left;
+	vertical-align:top;
+}
+#Reginfo{
+border-top:1px black thick;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color: #eeebeb;
+}
+#zonetrav{
+	padding:5px;
+	font-size:75%;
+	text-align:left;
+	vertical-align:top;
+
+}
+#EspInfo{
+	font-weight:bold;
+	font-size:75%;
+	text-align:left;
+	vertical-align:top;
+	background-color: #eeebeb;
+}
+#affresultat{
+	background-color: #f9f5cc;
+}
+#gereAffectation{
+	padding:10px;
+
+}
+.edit_row_even {
+	font-size:75%;
+	background-color: transparent;
+}
+
+.edit_row_odd {
+	font-size:75%;
+	background-color:	#E6E6E6;
+
+}
+.affresultattitre{
+	font-weight:bold;
+	font-size:75%;
+	vertical-align:top;
+	background-color:	#CCC;
+}
+.regroupement{
+	border-left-style:dotted;
+	border-left-color:#666;
+	font-size:75%;
+	vertical-align:top;
+	text-align:left;
+}
+#changeSel{
+	text-align:right;
+}
+.changeSel2{
+	text-align:right;
+	padding-left:10px;
+}
+#filEncours{
+	width:800px;
+	font-size:13px;
+}
+#filEncoursTit {
+	font-weight:bold;
+}
+#filEncoursText {
+}
+#infoSuppReg{
+	font-size:80%;
+}
+#exportFic{
+padding-top:20px;	
+}
+.colitem{
+	vertical-align:top;
+}
+.reg_div{
+	float:left;
+	margin:0 12px 0 0;
+}
+.lienReg {
+	padding:1px;
+	font-weight:bold;
+	color:#666;
+	background-color:#FAEFC2;
+	border:1px dashed #CCC;
+}
+.lienReg2 {
+	font-weight:bold;
+	font-size:140%;
+	color:black;
+}
+a.lienReg2 hover{
+	font-weight:bold;
+	background-color:#FFF;
+	color:black;
+}
+
+.infozip{
+	padding-bottom:5px;
+	background-color:#FEF592;
+	font-size:90%;
+}
+.titreAff{
+	font-size:90%;
+	font-weight:bold;
+}
+.grise{
+	background-color:#CCC;
+}
+#selComp{
+	border:1px solid #333;
+	background-color:#CCC;
+	margin:4px;
+	padding:4px;
+}
+#expResultat{
+	font-weight:bold;
+	margin:4px;
+	padding:4px;
+}
+

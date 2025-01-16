@@ -1,0 +1,248 @@
+/* *********************** */
+/* styles pour le module d'édition des tables */
+
+/* ********************** */
+/* page edition.php      */
+#tables_reference, #tables_codage, #tables_utilisateurs {
+	margin: 12px 0;
+	padding: 12px;
+	border: 1px solid gray;
+	width: 500px;
+}
+
+#tables_reference h2, #tables_codage h2 {
+	margin:0;
+}
+
+#tables_reference h3, #tables_codage h3 {
+	margin:0;
+}
+
+#tables_reference select, #tables_codage select {
+	margin:0;
+}
+
+/* **************************** */
+/* le selecteur de tables      */
+
+#selector_container {
+	border: 1px solid grey;
+	min-width:800px;
+}
+
+
+.showHide {
+padding: 0 25px;
+font-size: 10px;
+font-weight: bold;
+padding: 0 9px 0 2px;
+}
+
+
+
+.level_div {
+	float:left;
+	margin:0 12px 0 0;
+}
+
+
+.edit_link, .select_link {
+	font-size:10px;
+	margin: 3px 0;
+}
+
+.hints {
+	clear:both;
+	background-color:	transparent;
+	width			: 100%;
+	padding: 18px 0 9px 0;
+	font-size: 14px;
+	font-weight:normal;
+}
+
+.hints_small {
+	clear:both;
+	background-color:	transparent;
+	width			: 100%;
+	padding: 18px 0 9px 0;
+	font-size: 10px;
+	font-weight:normal;
+}
+
+
+
+.hint_label {
+font-weight: bold;
+}
+
+.hint_text {
+font-style: italic;
+font-size: 12px;
+}
+
+/* **************************** */
+/* l'éditeur de tables      */
+
+#la_table td {
+border-right: 1px solid grey;
+padding:0;
+margin:0;
+}
+
+.edit_row_even {
+background-color: transparent;
+}
+
+.edit_row_odd {
+background-color:	#E6E6E6;
+
+}
+
+.tools {
+text-align:right;
+padding: 6px;
+min-width:100px;
+}
+
+.filter_field, .filter_field {
+font-size:9px;
+}
+
+.c_sorted {
+font-weight:bold;
+}
+
+.c_unsorted {
+font-weight:normal;
+}
+
+.edit_field_container, tr.edit_field_row {
+background-color:#FFF8A7;
+}
+
+.edit_field {
+font-family: Verdana,Helvetica,Arial,sans-serif;
+font-size: 10px;
+}
+
+.edit_buttons {
+text-align:left;
+}
+
+.edit_button {
+margin-left: 10px;
+}
+
+#the_headers a, .filter, .editable_field, .non_editable_field, .edit_field_container  {
+padding:0px 6px;
+display:block;
+line-height:2em;
+min-height:20px;
+}
+
+.editable_field:hover  {
+background:#FFF8A7;
+height:100%;
+}
+
+td.edit_row_even div.error, td.edit_row_odd div.error {
+padding:6px;
+}
+
+
+#add_record tr, #add_record td {
+vertical-align:top;
+background:#FFF8A7;
+padding:6px;
+}
+
+.overlay {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:100%;
+	height:100%;
+	text-align:center;
+	background-image : url(../assets/modal_background.png);
+}
+
+.overlay_window {
+	width:500px;
+	min-height:250px;
+	margin: 100px auto;
+	background-color: #fff;
+	border:1px solid #000;
+	padding:15px;
+	text-align:left;
+	overflow: auto;
+}
+
+.overlay_loader {
+	text-align:center;
+	height:10px;
+}
+
+.overlay_buttons {
+	text-align:right;
+	min-height:50px;
+}
+
+.overlay_buttons .link_button {
+	margin-left: 12px;
+}
+
+.overlay_content {
+	min-height:190px;
+}
+
+.overlay_window input, .overlay_window select, .overlay_window textarea  {
+	font-size:9px;
+}
+
+#droits_table {
+	padding:0;
+	margin:18px 0;
+}
+
+#droits_table td {
+border-right:1px solid grey;
+margin:0;
+padding: 6px;
+}
+
+.the_headers td {
+	font-weight: bold;
+}
+
+#droits_enregistrer {
+	margin-bottom:18px;
+}
+
+
+.commentaire_colonne {
+	font-family: Times, 'Times New Roman', Serif;
+	font-style:italic;
+	font-size:1.2em;
+	margin-bottom:4px;
+
+}
+
+#droits_enregistrer, #add_systemes {
+	margin-top:16px;
+}
+
+a.next_step {
+	font-size:12px;
+	background:#F7BA02;
+	padding: 3px 6px;
+	font-weight:bold;
+	margin-bottom:18px;
+	margin-top:8px;
+}
+
+#droits_enregistrer .next_step {
+	display:inline;
+}
+#add_systemes .next_step {
+	display:inline;
+}

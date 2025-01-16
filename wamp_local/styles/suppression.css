@@ -1,0 +1,27 @@
+/*************************/
+/* styles pour la suppression des campagnes ou des périodes d'enquête */
+/* Creee par O. Roux */
+/*************************/
+
+#affiche_unites {
+display:block;
+margin-top:15px;
+}
+
+#supprimer_container {
+	margin-top:30px;
+	width:100%;
+}
+
+#supprimer_container td {
+	padding: 3px 6px;
+	line-height: 2em;
+	min-height:20px;
+}
+#the_headers {
+	font-weight:bold;
+}
+
+#supprimer_container td.pagination_td {
+	border:none;
+}

@@ -1,0 +1,21 @@
+Numéro;IdSysteme;CodePays;NomSysteme;SuperficieSysteme;PechexpSYS_NUM;PechexpSYS_NOM;PechexpSYS_NUM_ancien;Champ8
+1;0;0;aucun;0;null;;null;
+2;1;IN;Inconnu;0;null;;null;
+3;2;IV;Lagune Aby;424;null;;null;
+4;3;IV;Lagune Ebrie;566;3;Ebrié;4;
+5;4;ML;Delta Central du Niger;27986;null;;null;
+6;5;ML;Lac de Manantali;485;5;Manantali;9;
+7;6;ML;Lac de Selingue;409;6;Sélingué;10;
+8;7;TO;Lac Togo;64;null;;null;
+9;8;SG;Sine Saloum;848;8;Saloum;7;
+10;9;ML;Lac de Korientze;0;null;;null;
+11;10;GA;Estuaire de la Gambie;719;10;Gambie;1;
+12;11;IV;Lagune de Grand Lahou;190;null;;null;
+13;12;SG;Casamance;0;12;Casamance;11;
+14;13;GV;Dangara;0;13;Dangara;3;
+15;14;GV;Estuaire de la Fatala;56,3;14;Fatala;5;
+16;15;PU;Archipel des Bijagos;0;15;Bijagos;2;
+17;16;PU;Rio Buba;285;16;RioBuba;6;
+18;17;SG;Bolong Bamboung;0,68;17;Bamboung;8;
+19;18;MR;Banc d'Arguin;6000;18;BancArguin;12;
+20;19;PU;Iles Urok;0;19;Iles Urok;19;

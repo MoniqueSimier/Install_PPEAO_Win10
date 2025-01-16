@@ -1,0 +1,8 @@
+; Configuration Extraction
+; Comparaison / Maj des donnees
+; Repertoire des fichiers log
+repLogExtr=log;
+; Nom fichier de log supplementaire (la date est ajoutée)
+nomFicLogExtr=Extraction.log;
+
+

@@ -1,0 +1,23 @@
+; Configuration ProcessAuto
+; Configuration Sauvegarde base
+; Nom de la BD de sauvegarde
+backupNomBD=ppeaobackup;
+
+
+; Comparaison / Maj des donnees
+; Repertoire des fichiers log
+repLogAuto=log;
+; Nom fichier de log supplementaire (la date est ajoutée)
+nomFicLogSupp=Resultats.log;
+; Listes des tables avec un ID pas numériques
+listeTableIDPasNum=art_debarquement_rec,art_fraction,art_fraction_rec,art_grand_type_engin,art_type_activite,art_type_engin,exp_debris,exp_engin,exp_remplissage,exp_sediment,exp_sexe,exp_station,exp_vegetation,ref_categorie_ecologique,ref_categorie_trophique,ref_espece,ref_pays;
+; Listes des tables a mettre a jour( attention l'ordre est tres important, ce sera l'ordre dans lequel les 
+; scripts SQL seront executes. Ca permet d'eviter les problemes de contraintes
+listeTableComp=ref_pays,ref_systeme,ref_secteur,ref_categorie_ecologique,ref_categorie_trophique,ref_ordre,ref_famille,ref_espece,ref_origine_kb,exp_contenu,exp_debris,exp_engin,exp_force_courant,exp_position,exp_qualite,exp_remplissage,exp_sediment,exp_sens_courant,exp_sexe,exp_stade,exp_vegetation,exp_station;
+listeTableCompInv=art_categorie_socio_professionnelle,art_etat_ciel,art_grand_type_engin,art_millieu,art_type_activite,art_type_agglomeration,art_type_sortie,art_type_engin,art_vent,art_agglomeration;
+listeTableMajsc=exp_environnement,exp_campagne,exp_coup_peche,exp_fraction,exp_biologie,exp_trophique;
+listeTableMajrec=art_unite_peche,art_lieu_de_peche,art_debarquement,art_debarquement_rec,art_stat_totale,art_stat_gt,art_stat_gt_sp,art_stat_sp,art_taille_gt_sp,art_taille_sp,art_engin_peche,art_fraction,art_poisson_mesure,art_activite,art_engin_activite,art_fraction_rec;
+
+; Purge des tables
+listeTableAViderParam=ref_origine_kb,ref_espece,ref_famille,ref_ordre,ref_categorie_trophique,ref_categorie_ecologique,ref_secteur,ref_systeme,ref_pays,art_agglomeration,art_vent,art_type_engin,art_type_sortie,art_type_agglomeration,art_type_activite,art_millieu,art_grand_type_engin,art_etat_ciel,art_categorie_socio_professionnelle,exp_station,exp_vegetation,exp_stade,exp_sexe,exp_sens_courant,exp_sediment,exp_remplissage,exp_qualite,exp_position,exp_force_courant,exp_engin,exp_debris,exp_contenu,temp_exist_peche,temp_recomp_id,exp_biologie,exp_campagne,exp_coup_peche,exp_environnement,exp_fraction,exp_trophique,art_activite,art_debarquement,art_engin_activite,art_engin_peche,art_fraction,art_lieu_de_peche,art_poisson_mesure,art_unite_peche,art_debarquement_rec,art_fraction_rec,art_stat_gt,art_stat_gt_sp,art_stat_sp,art_stat_totale,art_taille_gt_sp,art_taille_sp;
+

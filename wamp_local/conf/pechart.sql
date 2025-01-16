@@ -1,0 +1,4 @@
+UPDATE Systeme, Systeme_corresp SET Systeme.PechexpSYS_NOM = Systeme_corresp!PechexpSYS_NOM, Systeme.PechexpSYS_NUM = Systeme_corresp!PechexpSYS_NUM WHERE (((Systeme.IdSysteme)=[Systeme_corresp]![IdSysteme]));
+UPDATE CategorieEcologique SET CategorieEcologique.LibelleCatEcolo = 'Estuarienne d origine continentale' WHERE (((CategorieEcologique.CodeCategorieEcolo)='Ec'));
+UPDATE CategorieEcologique SET CategorieEcologique.LibelleCatEcolo = 'Estuarienne d origine marine' WHERE (((CategorieEcologique.CodeCategorieEcolo)='Em'));
+UPDATE CategorieEcologique SET CategorieEcologique.LibelleCatEcolo = 'Estuarienne d origine marine' WHERE (((CategorieEcologique.CodeCategorieEcolo)='Em'));

@@ -1,0 +1,48 @@
+; Configuration Export vers base ACCESS
+; Configuration Sauvegarde base
+
+; Export ACCESS
+; Repertoire base de ref (pour les copies / zip)
+nomRepBD=work/export/base_ref;
+nomRepBDtravail=work/export/base_travail;
+; Nom des bases de ref (nom de la connexion ODBC, meme nom que le nom du fichier physique...)
+; Peche artisanale
+nomBDRefArt=Pechart;
+; Peche experimentale
+nomBDRefExp=Exp2003_bdd;
+; Repertoire des fichiers log
+repLogAccess=log;
+; Nom fichier de log supplementaire (la date est ajoutée)
+nomFicLogSuppAc=ExportAccess.log;
+; Nom fichier de compression (le type de peche est ajoutée)
+nomFicLogCompression=BaseACCESS;
+; Nom des fichiers SQL contenant les requetes supp a executer
+sqlPechart=pechart.sql;
+sqlPechexp=exp2003_bdd.sql;
+; Nom de la table access a maj - le chemin du fichier Excel contenant les données a MAJ
+ficxlsPechart=Systeme_corresp-work/export/base_ref/Systeme_corresp.csv;
+ficxlsPechexp=zone_postgre-work/export/base_ref/zone_postgre.csv,Systeme_corresp-work/export/base_ref/Systeme_corresp.csv;
+; tables a vider Peches Artisanales
+listeaViderArtACCESS=activImporter,CoefficientKb,ConditionPhysicoChimiq,CorrespondanceMaille,debarqImporter,engactiImporter,engpechImporter,Enqueteur,EspeceTMO,Journal,ModeCalcul,NomVernaculaire,PaysFragmentation,PECHEXPcat_ecol,PECHEXPcat_troph,PECHEXPespece,PECHEXPfamille,PECHEXPnom,PECHEXPordre,PeriodeEnquete,poidsImporter,Recap,RecapCoef,SuiviExtractImport,SuiviExtractImportRec,tailleImporter,vdueauImporter,Systeme_corresp;
+; tables a copier entre la base de travail et la base PPEAO de reference
+listeaViderArtPPEAO=Agglomeration,CategorieSocioProfessionnelle,EtatCiel,GrandTypeEngin,Milieu,TypeActivite,TypeAgglomeration,TypeEngin,TypeSortie,Vent,CategorieEcologique,Categorietrophique,CoefficientKb,Espece,Nom,Famille,Ordre,OrigineKb,Pays,Secteur,Systeme;
+; tables a copier entre la base de travail et la base ACCESS de reference
+listeTableRefArtACCESS=CorrespondanceMaille,Enqueteur,EspeceTMO,Journal,ModeCalcul,nomVernaculaire,PaysFragmentation,SuiviExtractImport;
+; tables a copier entre la base de travail et la base PPEAO de reference
+listeTableRefArtPPEAO=Pays,Systeme,Secteur,CategorieEcologique,Categorietrophique,Ordre,Famille,Espece,Nom,OrigineKb,CoefficientKb,TypeAgglomeration,Agglomeration,CategorieSocioProfessionnelle,EtatCiel,GrandTypeEngin,Milieu,TypeActivite,TypeEngin,TypeSortie,Vent;
+; tables a vider Peches Experimentales
+listeaViderExpACCESS=;
+; tables a copier entre la base de travail et la base PPEAO de reference
+listeaViderExpPPEAO=cat_ecol,cat_troph,contenu,debris,engin,f_courant,position,qualite,rempliss,s_courant,sediment,sexe,stade,station,vegetation,Espece,Nom,Famille,Ordre,Pays,Systeme,Zone_Postgre,Systeme_corresp;
+; tables a copier entre la base de travail et la base ACCESS de reference
+listeTableRefExpACCESS=;
+; tables a copier entre la base de travail et la base PPEAO de reference
+listeTableRefExpPPEAO=cat_ecol,cat_troph,contenu,debris,engin,f_courant,position,qualite,rempliss,s_courant,sediment,sexe,stade,vegetation,Pays,Systeme,station,Ordre,Famille,Espece,Nom;
+; tables de données pour peches artisanales et peches expérimentales
+listeDonneesExp=envir,campagne,cp_peche,fraction,biolo,trophique;
+: prevu mais pas utilisé pour les peches arts
+listeDonneesArt=;
+;liste des tables des bases postgreSQL au format ACCESS pour pouvoir les vider
+listePostAccessExp2003_bdd=biolo,campagne,cat_ecol,cat_troph,contenu,cp_peche,debris,engin,envir,espece,f_courant,famille,fraction,nom,ordre,pays,position,qualite,rempliss,s_courant,sediment,sexe,stade,station,systeme,systeme_corresp,trophique,vegetation,zone_postgre;
+listePostAccessPechart=activimporter,agglomeration,categorieecologique,categorietrophique,coefficientkb,conditionphysicochi,correspondancemaill,debarqimporter,engactiimporter,engpechimporter,enqueteur,espece,especetmo,etatciel,famille,grandtypeengin,journal,milieu,modecalcul,nom,nomvernaculaire,ordre,originekb,pays,paysfragmentation,pechexpcat_ecol,pechexpcat_troph,pechexpespece,pechexpfamille,pechexpnom,pechexpordre,periodeenquete,poidsimporter,recap,recapcoef,suiviextractimport,suiviextractimportr,systeme,systeme_corresp,tailleimporter,typeactivite,typeagglomeration,typeengin,typesortie,vdueauimporter,vent;
+listePostAccessPays=activite,caracteristiquesup,debarquement,enginactivite,enginpeche,fractiondebarquee,fractionnondebarque,lieupeche,poissonmesuredebarq,sys_activites_a_migrer,sys_base_pays,sys_debarquements_a_migrer,unitepeche,villageattache;
